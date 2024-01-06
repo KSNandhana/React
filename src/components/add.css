@@ -1,0 +1,27 @@
+/* cart.css */
+.cart-page {
+    padding: 20px;
+  }
+  
+  .cart-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cart-item img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .total-sum {
+    margin-top: 20px;
+    text-align: right;
+  }
+  

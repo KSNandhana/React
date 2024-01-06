@@ -1,0 +1,45 @@
+.grocery-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .grocery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .grocery-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    height: auto; 
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grocery-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+  }
+  
+  .grocery-card h3 {
+    margin-bottom: 8px;
+  }
+  
+  .grocery-card p {
+    color: #555;
+  }
+ .explore-btn {
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: #39dc1c;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

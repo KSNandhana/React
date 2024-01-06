@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: block;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 10px; /* Add border radius */
+    margin: 40px auto;
+    max-width: 600px;
+    max-height: 700px;
+    padding: 25px 40px;
+    border: 2px solid black;
+}
+
+form input,form textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px;
+    font-family: Comic Sans MS;
+    background-color: rgb(229,226,226);
+    border: 1px solid black;
+}
+
+form span {
+    color: rgb(29, 185, 237);
+}
+
+form button {
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    background-color: rgb(29, 185, 237);
+    color: #fff;
+    cursor: pointer;
+}
+form button:hover {
+    transform: scale(1.25);
+}
